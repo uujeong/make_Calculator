@@ -1,0 +1,109 @@
+.calculator {
+    width: 400px;
+    height: 500px;
+    background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-floral-pattern-seamless-plant-pattern-background-picture-image_1233702.jpg);
+    border: 3px solid rgb(134, 134, 134);
+    border-radius: 30px;
+    padding :10px;
+    background-color: pink;
+    
+    }
+    
+    
+    body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(173, 148, 183);
+    }
+    
+    .one_row{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    }
+    #ac{
+    flex-basis: 200px;
+    }
+    #c{
+    flex-basis: 100px;
+    }
+    #division{
+    flex-basis: 100px;
+    }
+    
+    
+    #zero{
+    flex-grow: 3;
+    }
+    
+    
+    
+    
+    .two_row{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    }
+    .two_row > button{
+    width: 100px;
+    }
+    .three_row{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    }
+    .three_row > button{
+    width: 100px;
+    }
+    .four_row{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    }
+    .four_row > button{
+    width: 100px;
+    }
+    .five_row{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    }
+    .five_row > button{
+    width: 100px;
+    }
+    
+    .answer_result{
+    display: flex;
+    flex-direction: column;
+    }
+    .answer_result > input {
+    height: 70px;
+    border: 0px;
+    text-align: right;
+    border-radius: 15px;
+    margin: 3px;
+    }
+    *{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    }
+    .number{
+    background-color: rgb(242, 209, 232);
+    }
+    
+    button{
+    background-color: rgb(240, 227, 239);
+    border-radius: 15px;
+    font-size: xx-large;
+    
+    }
+    button:hover{background: rgb(219, 149, 149);}
+
+    
+
+
+    
